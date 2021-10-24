@@ -1,6 +1,6 @@
-# Twitter Connector
+# Twitter Bot
 
-The purpose of this plugin is to send tweets via twitter app to Twitter wall.
+This plugin is performs auto likes of mentions or auto following followers.
 
 # Configuration
 
@@ -18,8 +18,8 @@ Please add a resource inside Tracardi that have the following schema:
 
 ```json
 {
-  "access_token": "<access_token>",
-  "access_token_secret": "<access_token_secret>",
+  "access_token": "<ACCESS_TOKEN>",
+  "access_token_secret": "<ACCESS_TOKEN_SECRET>",
   "consumer_key": "<API_KEY>",
   "consumer_secret": "<API_KEY_SECRET>"
 }
@@ -44,6 +44,8 @@ To access credentials you will have to provide a resource id that point to the s
   "action": "mention"
 }
 ```
+
+This config will like all recent mentions.
 
 # Input
 

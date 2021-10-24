@@ -47,7 +47,7 @@ def register() -> Plugin:
             }),
         metadata=MetaData(
             name='Tweet auto actions',
-            desc='This plugin is performs auto likes of mentions and auto following followers.',
+            desc='This plugin is performs auto likes of mentions or auto following followers.',
             type='flowNode',
             width=200,
             height=100,

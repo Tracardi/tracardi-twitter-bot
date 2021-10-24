@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setup(
     name='tracardi-twitter-bot',
     version='0.1',
-    description='This plugin is performs auto likes of mentions and auto following followers.',
+    description='This plugin is performs auto likes of mentions or auto following followers.',
     long_description=long_description,
     long_description_content_type="text/markdown",
     author='Risto Kowaczewski',
